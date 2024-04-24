@@ -1,0 +1,10 @@
+create database movie_recommendation;
+
+use movie_recommendation;
+
+create table users(
+userid varchar(255) primary key,
+password varchar(255)
+);
+
+insert into users values ('admin', 'admin'), ('sanskar', 'sanskar');
