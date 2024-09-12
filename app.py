@@ -16,7 +16,7 @@ similarity = pickle.load(open('similarity.pkl','rb'))
 app=Flask(__name__)
 app.secret_key=os.urandom(24)
 
-conn=mysql.connector.connect(host='localhost', user='root', password='himanshu', database='movie_recommendation')
+conn=mysql.connector.connect(host='localhost', user='root', password='123456', database='movie_recommendation')
 cursor=conn.cursor()
 
 
